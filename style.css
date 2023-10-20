@@ -1,0 +1,123 @@
+
+body {
+    background-color: #030f1d;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+header {
+    background-color: #030f1d;
+    border-bottom: solid #67f7e1;
+}
+
+section#atividades,
+section#pacotes,
+section#fale-conosco {
+    height: 750px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    text-transform: uppercase;
+    border-bottom: #67f7e1 solid; 
+    letter-spacing: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 55px;
+    color: #67f7e1;
+}
+
+.nav .nav-link.active {
+    background-color: #329c8c;
+    font-weight: bold;
+}
+
+.nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav .nav-link:hover {
+    color: #a8a8a8;
+}
+
+.carousel-item img {
+    height: 760px;
+    padding: 0px 50px;
+}
+
+.text-colored {
+    color: #67f7e1;
+    border-bottom: #67f7e1 solid; 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.text-colored-icons {
+    color: #67f7e1;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+section#atividades {
+    background-color: #2f4f64;
+}
+
+.card-header {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.card-footer {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-content {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15px 15px;
+    height: 350px;
+}
+
+button{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.card {
+    background: linear-gradient(-45deg,
+    #8ae7ee,
+    #517ea8,
+    #4fd6ff,
+    #11355f);
+    background-size: 400% 400%;
+    animation: gradient 5s infinite ease-in-out;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
